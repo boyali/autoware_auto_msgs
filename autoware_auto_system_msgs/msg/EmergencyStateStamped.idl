@@ -1,0 +1,11 @@
+#include "builtin_interfaces/msg/Time.idl"
+#include "autoware_auto_system_msgs/msg/EmergencyState.idl"
+
+module autoware_auto_system_msgs {
+  module msg {
+    struct EmergencyStateStamped {
+      builtin_interfaces::msg::Time stamp;
+      autoware_auto_system_msgs::msg::EmergencyState state;
+    };
+  };
+};
