@@ -21,13 +21,13 @@ module autoware_auto_vehicle_msgs{
       @default (value = 0.0)
       double steering_angle_measured;
 
-      @verbatim (language = "comment", text = "Next steering state by the MPC")
+      @verbatim (language = "comment", text = "Next steering state by the NMPC")
       @default (value = 0.0)
       double mpc_steering_reference;
 
-      @verbatim (language = "comment", text = "Extremum seeking theta")
+      @verbatim (language = "comment", text = "Output of MPC controller")
       @default (value = 0.0)
-      double es_theta;
+      double mpc_steering_input_original;
 
       @verbatim (language = "comment", text = "Acceleration input computed by the NMPC")
       @default (value = 0.0)
