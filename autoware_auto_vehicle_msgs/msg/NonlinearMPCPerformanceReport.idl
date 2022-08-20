@@ -33,6 +33,10 @@ module autoware_auto_vehicle_msgs{
       @default (value = 0.0)
       double es_theta;
 
+      @verbatim (language = "comment", text = "Extremum seeking parameter")
+      @default (value = 0.0)
+      double es_error;
+
       @verbatim (language = "comment", text = "Acceleration input computed by the NMPC")
       @default (value = 0.0)
       double acceleration_input;
