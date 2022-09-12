@@ -22,7 +22,6 @@ module autoware_auto_vehicle_msgs{
       @default (value = 0.0)
       double xtracked;
 
-
       @verbatim (language = "comment", text = "Tracking differentiator xdot")
       @default (value = 0.0)
       double xtracked_dot;
